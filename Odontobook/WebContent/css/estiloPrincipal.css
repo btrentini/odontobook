@@ -1,0 +1,92 @@
+body 
+{
+	color:#000;
+	
+	background: url(../img/body-bg.jpg) repeat-x;
+	
+	padding:0;
+	
+	margin:50px;
+	
+	font:  normal 85% arial,helvetica,san-serif,serif;
+	
+	scrollbar-arrow-color: #CC1400;
+	scrollbar-3dlight-color: #CC1400;
+	scrollbar-darkshadow-color: #CC1400;
+	scrollbar-face-color: #f4f4f0;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-shadow-color: #d0d0d0;
+	scrollbar-track-color: #ffffff;
+
+	
+	
+}
+#content
+{
+
+	position: absolute;
+	top: 100px;
+	left: 350px;
+	width: 450px;
+	height: 299px;
+	border-top: 1px solid black;
+	border-bottom: 3px solid black;
+	border-right: 2px solid black;
+	background: #fff;
+
+}
+#menu
+{
+	position: absolute;
+	top: 100px;
+	left: 199px;
+	width: 50px;	
+	height: 300.5px;
+	border: 1px solid black;
+
+}
+
+#bottom1
+{
+	
+	position: absolute;
+	top: 391px;
+	width: 350px;
+	left:350px;
+	background: url(../img/menu-x-bg-bottom2.gif) no-repeat;
+
+}
+.bt
+{
+	height: 75px;
+	width: 150px;
+	border: 1px #990000 solid;
+	background: url(../img/header-bg.gif) repeat-x;
+
+	
+}
+#menu a:link
+{
+	font-style: none;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	padding: 28px;
+}
+#menu a:hover
+{
+	font-style: none;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	padding: 28px;
+}
+#menu a:visited
+{
+	font-style: none;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	padding: 28px;
+
+}

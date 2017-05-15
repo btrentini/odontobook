@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<items>
+<item>
+<data>
+		30/06/2010
+		</data>
+		<desc>
+		Procedimento para tratar algo
+		</desc>
+		<dente> 11 </dente>
+		<obs> Precisa Melhorar Escovação</obs>
+		</item>
+		<item>
+<data>
+		10/06/2010
+		</data>
+		<desc>
+		Procedimento para tratar algo
+		</desc>
+		<dente> 18 </dente>
+		<obs> Precisa Melhorar Escovação</obs>
+		</item>
+</items>

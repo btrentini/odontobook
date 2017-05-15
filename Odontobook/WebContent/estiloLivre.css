@@ -1,0 +1,85 @@
+/* Começo */
+
+.botao
+{
+	width: 100px;
+	border: 1px #990000 solid;
+	background: url(../images/header-bg.gif) repeat-x;
+	position: absolute;
+	left: 140px;
+}
+#principal
+{
+	position: relative;
+	top: -10%;
+	border: none;
+	border-style: hidden;
+	
+	
+}
+.botaoSolicitar
+{
+    cursor:pointer;
+    width: 300px;
+    height: 32px;
+    border: none;
+    color: transparent;
+   
+}
+	
+.checkbox-select {
+	display: block;
+	float: left;
+	position: absolute;
+	top: 118px;
+	left: 10px;
+	width: 85px;
+	height: 23px;
+	background: url(i/select.gif) no-repeat 0 0;
+	text-indent: -9999px;
+}
+
+.escondido
+{
+	visibility: hidden;	
+}
+#textContent
+{
+	
+	right: 0%;
+	top: 50px;
+	width: 45%;
+	height: 150px;
+	
+	
+}
+.areas
+{
+	
+	border: none;
+	border-bottom: 1px solid gray;
+	position: absolute;
+	left: 150px;
+	
+
+}
+
+.areas2
+{
+	
+	border: none;
+	width: 280px;
+	
+
+}
+input[readonly] {
+	background: buttonface;
+	cursor: none;
+	
+	
+	}
+p
+{
+	font-variant: small-caps;
+	font-weight: bolder;
+	

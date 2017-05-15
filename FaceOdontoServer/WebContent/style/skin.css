@@ -1,0 +1,109 @@
+/* CSS file */
+
+/* Textarea used in month view to display event description */
+
+
+@namespace spark "spark.skins.spark.*";
+@namespace s "library://ns.adobe.com/flex/sp...";
+@namespace mx "library://ns.adobe.com/flex/mx";
+spark|TextAreaSkin.txtArea
+{
+borderStyle: none;
+}
+
+/* Skins for buttons used in week and day view */
+spark|ButtonSkin.btnDayItems
+{
+upSkin:ClassReference('classes.skins.ButtonSkin');
+overSkin:ClassReference('classes.skins.ButtonSkin');
+downSkin:ClassReference('classes.skins.ButtonSkin');
+disabledSkin:ClassReference('classes.skins.ButtonSkin');
+selectedUpSkin:ClassReference('classes.skins.ButtonSkin');
+selectedOverSkin:ClassReference('classes.skins.ButtonSkin');
+selectedDownSkin:ClassReference('classes.skins.ButtonSkin');
+selectedDisabledSkin:ClassReference('classes.skins.ButtonSkin');
+textAlign: left;
+paddingBottom: 0;
+}
+
+/* title for showing date used in day and week view */
+s|Label.lblViewTitle
+{
+fontWeight: bold;
+textAlign: left;
+color: #FFFFFF;
+}
+
+/* global button styles */
+/*
+mx|Button
+{
+fillAlphas: 0.6, 0.6, 0.6, 0.6;
+fillColors: #FFFFFF, #CCCCCC;
+}
+*/
+
+/* Grid styles, used in month view */
+mx|Grid.grdMonthView
+{
+horizontalGap: 0;
+verticalGap: 0;
+}
+
+/*used for showing day's name in week view */
+
+s|Label.lblDaysNames
+{
+fontWeight: bold;
+color: #FFFFFF;
+}
+
+/* Global HRule style */
+mx|HRule
+{
+shadowColor: #004C7C;
+}
+
+/* Application controlbar style, used in all 3 views */
+mx|ApplicationControlBar.appBarDayCell
+{
+fillAlphas: 1.0, 1.0;
+fillColors: #7FC4FF, #52AACA;
+cornerRadius: 0;
+paddingTop: 2;
+}
+
+
+/* Canvas used as base of month cell */
+mx|Canvas.canDayCellBase
+/*Canvas.canDayCellBase*/
+{
+backgroundColor: #FFFFFF;
+borderStyle: solid;
+borderColor: #88C4EE;
+}
+
+/* hours label used in day and week view */
+s|Label.lblHours
+{
+color: #FFFFFF;
+fontFamily: Verdana;
+fontSize: 12;
+}
+
+/* mins label used in day and week view */
+s|Label.lblMins
+{
+color: #FFFFFF;
+fontFamily: Verdana;
+fontSize: 10;
+}
+
+/* Embed Verdana font in application
+@font-face
+{
+/*fontFamily: Verdana;
+fontWeight: normal;
+fontStyle: normal;
+src: local("Verdana");
+}*/

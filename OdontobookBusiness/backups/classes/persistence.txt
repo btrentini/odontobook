@@ -1,0 +1,10 @@
+		<class>model.AnamneseClinica</class>
+		<class>model.AnamneseGeral</class>
+		<class>model.Dente</class>
+		<class>model.Dentista</class>
+		<class>model.Endodontia</class>
+		<class>model.Paciente</class>
+		<class>model.Permissao</class>
+		<class>model.Pessoa</class>
+		<class>model.Tratamento</class>
+		<class>model.Paciente</class>

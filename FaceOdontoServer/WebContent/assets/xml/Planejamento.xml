@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<items>
+	<item>
+		<data>
+			30/06/2010
+		</data>
+		<desc>
+			Procedimento para tratar algo
+		</desc>
+		<dente> 11 </dente>
+		<obs> Aplicação de anestesia</obs>
+		<valor> R$ 1.300,00 </valor>
+		<dtPgto> 30/06/2010</dtPgto>
+		<pendente> SIM </pendente>
+	</item>
+	<item>
+		<data>
+			10/06/2010
+		</data>
+		<desc>
+			xxxxxx
+		</desc>
+		<dente> 18 </dente>
+		<obs> Aplicação de anestesia</obs>
+		<valor> R$ 81.800,00 </valor>
+		<dtPgto> 20/06/2010</dtPgto>
+		<pendente> NÃO </pendente>
+	</item>
+</items>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<items>
+	<item>
+		<data>
+		30/06/2010
+		</data>
+		<desc>
+		Procedimento para tratar algo
+		</desc>
+		<dente> 11 </dente>
+		<obs> Aplicação de anestesia</obs>
+		<cmntP> Doeu muito! </cmntP>
+		<cmntD> Paciente Reclamão</cmntD>
+		<like>  NÃO </like>
+	</item>
+	<item>
+		<data>
+		10/06/2010
+		</data>
+		<desc>
+		xxxxxx
+		</desc>
+		<dente> 18 </dente>
+		<obs> Aplicação de anestesia</obs>
+		<cmntP> Muito bom </cmntP>
+		<cmntD> Paciente Legal</cmntD>
+		<like>  SIM </like>
+	</item>
+</items>
